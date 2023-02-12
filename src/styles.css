@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+#WPDiv {
+    height: 300vh;
+}
+
+.a-box {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    /* border-style: dotted;
+    border-radius: 2px; */
+    background-color: rgb(255, 251, 0);
+    width: 100vw;
+    height: 70vh;
+    z-index: 1;
+}
+
+#b-box {
+    position: relative;
+    border-style: dotted;
+    border-radius: 2px;
+    width: fit-content;
+    height: 70vh;
+
+    z-index: 2;
+}
+
+.c-box {
+    position: relative;
+    top: 950px;
+    left: 10px;
+    border-style: dotted;
+    border-radius: 2px;
+    background-color: rgb(251, 0, 255);
+    width: 10vw;
+    height: 10vh;
+}
+
+#ngt-canvas-container {
+    height: 100%;
+    width: 300px;
+}
